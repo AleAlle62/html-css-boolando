@@ -1,3 +1,9 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -15,6 +21,7 @@
     position: fixed;
     right: 0;
     left: 0;
+    z-index: 1000;
 }
 
 
@@ -23,11 +30,13 @@
 }
 
 .container2{
+    z-index: 10;
     display: flex;
-    height: 2000px;
+    height: 1350px;
     width: 1000px;
     background-color: white;
     flex-wrap: wrap;
+
 }
 
 
@@ -35,12 +44,55 @@
 
 img{
     height: 30em;
+    
 }
+
+
+/* prima immagine */
+
+
 .immagine1{
     position: relative;
     left: 150px;
     top: 100px;
 }
+
+.sconti{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.sostenibilita{
+    position: absolute;
+    top: 400px;
+    left: 65px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.levis{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo1{
+    color: red;
+}
+
+.prezzo2{
+    font-size: small;
+    opacity: 0.5;
+}
+
+
+/* seconda immagine */
 
 .immagine2{
     position: relative;
@@ -48,26 +100,212 @@ img{
     top: 100px;
 }
 
+.sconti2{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+
+.levis2{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo3{
+    color: red; 
+}
+
+.prezzo4{
+    font-size: small;
+    opacity: 0.5;
+
+}
+
+
+
+/* immagine 3 */
+
 .immagine3{
     position: relative;
     left: 350px;
     top: 100px;
 }
 
+.sconti3{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+
+.levis3{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo5{
+    color: red;
+}
+
+.prezzo6{
+    font-size: small;
+    opacity: 0.5;
+}
+
+
+
+
+/* immagine 4 */
+
 .immagine4{
     position: relative;
     left: 150px;
-    top: -300px;
 }
+
+.sconti4{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+
+.levis4{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo7{
+    color: red;
+}
+
+.prezzo8{
+    font-size: small;
+    opacity: 0.5;
+}
+
+
+/* immagine 5 */
 
 .immagine5{
     position: relative;
     left: 250px;
-    top: -300px;
 }
+
+.sconti5{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+
+.levis5{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo9{
+    color: red;
+}
+
+.prezzo10{
+    font-size: small;
+    opacity: 0.5;
+}
+
+
+/* immagine 6 */
+
 
 .immagine6{
     position: relative;
     left: 350px;
-    top: -300px;
+} 
+
+
+.sconti6{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
+
+
+.levis6{
+    opacity: 0.5;
+    font-size: small;
+}
+
+.prezzo11{
+    color: red;
+}
+
+.prezzo12{
+    font-size: small;
+    opacity: 0.5;
+}
+
+.sostenibilita2{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+
+.containernero{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.booleando{
+    color: white;
+}
+
+.informazioni{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+}
+
+.social{
+    color: white;
+    font-size: small;
+    position: relative;
+
+
+}
+
+.img-social{
+    color: white;
+    position: absolute; 
+    left: 1250px;
 }
