@@ -36,36 +36,36 @@ img{
 }
 .immagine1{
     position: relative;
-    left: 100px;
+    left: 150px;
     top: 100px;
 }
 
 .immagine2{
     position: relative;
-    left: 200px;
+    left: 250px;
     top: 100px;
 }
 
 .immagine3{
     position: relative;
-    left: 300px;
+    left: 350px;
     top: 100px;
 }
 
 .immagine4{
     position: relative;
-    left: 100px;
+    left: 150px;
     top: -300px;
 }
 
 .immagine5{
     position: relative;
-    left: 200px;
+    left: 250px;
     top: -300px;
 }
 
 .immagine6{
     position: relative;
-    left: 300px;
+    left: 350px;
     top: -300px;
 }
