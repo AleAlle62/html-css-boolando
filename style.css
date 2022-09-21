@@ -28,11 +28,44 @@
     width: 1000px;
     background-color: white;
     flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
 }
+
 
 img{
     height: 30em;
-    /* position: absolute; */
+}
+.immagine1{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.immagine2{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.immagine3{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.immagine4{
+    position: relative;
+    left: 100px;
+    top: -300px;
+}
+
+.immagine5{
+    position: relative;
+    left: 200px;
+    top: -300px;
+}
+
+.immagine6{
+    position: relative;
+    left: 300px;
+    top: -300px;
 }
