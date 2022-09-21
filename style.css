@@ -23,23 +23,14 @@
 }
 
 .container2{
-    /* position: relative; */
+    display: flex;
     height: 2000px;
+    width: 500px;
     background-color: white;
-}
-/* img{
-    height: 40em;
-    margin-left: 100px;
+    justify-content: space-around;
 }
 
-
-/* img .uomo1{
-    position: relative;
-    margin-left: 200px;
-} */
-
-/* .sconti{
-    position: absolute;
-    top: 70%;
-    left: 2%;
-} */
+img{
+    height: 30em;
+    
+}
