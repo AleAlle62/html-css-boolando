@@ -3,3 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.containerarancio{
+    height: 70px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+
+.logo{
+    height: 2em;
+}
+
+.container2{
+    /* position: relative; */
+    height: 2000px;
+    background-color: white;
+}
+/* img{
+    height: 40em;
+    margin-left: 100px;
+}
+
+
+/* img .uomo1{
+    position: relative;
+    margin-left: 200px;
+} */
+
+/* .sconti{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+} */
