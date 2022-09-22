@@ -68,6 +68,19 @@ img{
     top: 100px;
 }
 
+.cuore{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 20px;
+    width: 30px;
+    background-color: white;
+    text-align: center;
+
+}
+
+
+
 .sconti{
     position: absolute;
     top: 400px;
