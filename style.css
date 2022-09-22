@@ -50,14 +50,14 @@ img{
 
 /* prima immagine */
 
-
+/* 
 .immagine1:hover .img1a{ 
     display: none;
 }
 
 .immagine1:hover .img1b{
     display: inline;
-}
+} */
 
 
 
@@ -105,14 +105,14 @@ img{
 
 /* seconda immagine */
 
-
+/* 
 .immagine2:hover .img2a{ 
     display: none;
 }
 
 .immagine2:hover .img2b{
     display: inline;
-}
+} */
 
 
 .immagine2{
