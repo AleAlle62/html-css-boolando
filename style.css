@@ -22,6 +22,7 @@ html{
     right: 0;
     left: 0;
     z-index: 1000;
+    /* max-width: 9000px; */
 }
 
 
@@ -50,16 +51,18 @@ img{
 
 /* prima immagine */
 
-/* 
 .immagine1:hover .img1a{ 
     display: none;
 }
 
 .immagine1:hover .img1b{
     display: inline;
-} */
 
+} 
 
+.img1b{
+    display: none;
+}
 
 
 .immagine1{
@@ -134,6 +137,19 @@ img{
     top: 100px;
 }
 
+.immagine2:hover .img2a{ 
+    display: none;
+}
+
+.immagine2:hover .img2b{
+    display: inline;
+
+} 
+
+.img2b{
+    display: none;
+}
+
 .sconti2{
     position: absolute;
     top: 400px;
@@ -170,6 +186,21 @@ img{
     top: 100px;
 }
 
+
+.immagine3:hover .img3a{ 
+    display: none;
+}
+
+.immagine3:hover .img3b{
+    display: inline;
+
+} 
+
+.img3b{
+    display: none;
+}
+
+
 .sconti3{
     position: absolute;
     top: 400px;
@@ -205,6 +236,20 @@ img{
     left: 150px;
 }
 
+
+.immagine4:hover .img4a{ 
+    display: none;
+}
+
+.immagine4:hover .img4b{
+    display: inline;
+
+} 
+
+.img4b{
+    display: none;
+}
+
 .sconti4{
     position: absolute;
     top: 400px;
@@ -236,6 +281,20 @@ img{
 .immagine5{
     position: relative;
     left: 250px;
+}
+
+
+.immagine5:hover .img5a{ 
+    display: none;
+}
+
+.immagine5:hover .img5b{
+    display: inline;
+
+} 
+
+.img5b{
+    display: none;
 }
 
 .sconti5{
@@ -271,6 +330,20 @@ img{
     position: relative;
     left: 350px;
 } 
+
+
+.immagine6:hover .img6a{ 
+    display: none;
+}
+
+.immagine6:hover .img6b{
+    display: inline;
+
+} 
+
+.img6b{
+    display: none;
+}
 
 
 .sconti6{
